@@ -3,8 +3,9 @@ import synergine_lifegame
 
 setup(
     name='synergine_lifegame',
-    version='0.0.1.4',
+    version='0.0.1.5',
     packages=find_packages(),
+    install_requires=['synergine', 'synergine-xyz'],
     author='Bastien Sevajol',
     author_email="synergine@bux.fr",
     description='Synergy howto project',
