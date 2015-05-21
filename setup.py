@@ -5,7 +5,7 @@ setup(
     name='synergine_lifegame',
     version='0.0.1.5',
     packages=find_packages(),
-    install_requires=['synergine', 'synergine-xyz'],
+    install_requires=['synergine', 'synergine_xyz'],
     author='Bastien Sevajol',
     author_email="synergine@bux.fr",
     description='Synergy howto project',
