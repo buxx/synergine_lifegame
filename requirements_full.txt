@@ -1,0 +1,3 @@
+synergine==0.0.1
+synergine-xyz==0.0.1
+matplotlib
