@@ -1,6 +1,6 @@
 [run]
-omit =
-    synergine_lifegame/test*
+omit =filter:
+    excluded_paths: [synergine/*, synergine_xyz/*]
     run_tests.py
     run.py
     setup.py
