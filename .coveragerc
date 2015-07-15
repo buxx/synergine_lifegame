@@ -1,6 +1,6 @@
 [run]
 omit =
-    synergine_lifegame/test*
+    *synergine/*, *synergine_xyz/*]
     run_tests.py
     run.py
     setup.py
