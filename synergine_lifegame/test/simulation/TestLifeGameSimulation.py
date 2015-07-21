@@ -9,8 +9,8 @@ from synergine_xyz.Context import Context as XyzContext
 
 class TestLifeGameSimulation(BaseTestSimulation):
 
-    def _get_set_up_simulation(self):
-        return LifeGameSimulation([LifeGameCollection(TestCollectionConfiguration())])
+    def _get_set_up_simulations(self):
+        return [LifeGameSimulation([LifeGameCollection(TestCollectionConfiguration())])]
 
     def _get_core_configuration(self, cycles, main_process = True):
       config = super()._get_core_configuration(cycles, main_process)
