@@ -8,13 +8,13 @@ class Cell(XyzSynergyObject):
     Representation of cell.
     """
 
-    def __init__(self, collection, context, forced_id=None):
+    def __init__(self, collection, context, from_id=None):
         """
 
         :param collection: Collection who contain this Cell
         :param context: The context object
         """
-        super().__init__(collection, context, forced_id)
+        super().__init__(collection, context, from_id)
         self._alive = False
         self._alive_since = -1
         # By default, a cell is dead
