@@ -12,4 +12,4 @@ class PrintTerminal(Terminal):
         died_objects = [obj for obj in objects if not obj.is_alive()]
         cycle = self._context.get_cycle()
 
-        print("Cycle %d: %d cells alive, %d cells died." % (cycle, len(alive_objects), len(died_objects)))
+        print("Cycle %d: %d cells alive, %d dead cells." % (cycle, len(alive_objects), len(died_objects)))
